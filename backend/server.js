@@ -46,6 +46,21 @@ pool.on('error', (err) => {
 
 // ========================================
 // ROTA DE TESTE - Verificar se o servidor está funcionando
+
+app.get('/', (req, res) => {
+  res.json({
+    mensagem: 'Bem-vindo ao UNICA ERP!',
+    versao: '1.0.0',
+    status: 'OK',
+    endpoints: {
+      saude: '/api/health',
+      clientes: '/api/clientes',
+      carros: '/api/carros',
+      alugueis: '/api/aluguel'
+    }
+  });
+});
+
 // ========================================
 
 app.get('/api/health', (req, res) => {
