@@ -1,3 +1,5 @@
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CarlosBononi/unica-locadora)
+
 # ÚNICA - ERP de Gestão de Aluguel de Carros
 
 🚗 Sistema profissional e robusto para gestão completa de aluguel de veículos com contratos digitais, assinatura eletrônica, inspeção de carros e CRM.
